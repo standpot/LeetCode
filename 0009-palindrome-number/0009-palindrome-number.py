@@ -3,7 +3,7 @@ class Solution:
         if(x < 0):
             return False
         else:
-            x1 = int(str(x)[::-1])
+            x1 = int(str(x)[::-1])  # [::-1] flips the string <- ->
             if(x == x1):
                 return True
             else:
